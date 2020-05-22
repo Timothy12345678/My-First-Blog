@@ -25,7 +25,7 @@ SECRET_KEY = 'lju%bdmy_cz_gz37#dnqnbj2a0^s_vw76mg3d#uv26)%u8pwlp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lambrechtcomputing.pythonanywhere.com']
 
 
 # Application definition
@@ -123,3 +123,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
